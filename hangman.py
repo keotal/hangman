@@ -6,9 +6,6 @@ wordlist = ['red', 'blue', 'green', 'yellow']
 # choose random word from word list
 gameword = list(wordlist[randint(0, 3)])
 
-print(gameword)
-
-
 guesses = list(len(gameword) * "_")
 
 def game() :
@@ -39,7 +36,6 @@ def game() :
             print("You Win!")
             break
         
-
 # game loop
 game()
 print('Game Over!')
